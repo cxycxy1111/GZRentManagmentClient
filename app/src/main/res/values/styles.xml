@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Toolbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:subtitleTextColor" tools:targetApi="m">#f1f1f1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/toolbar_height</item>
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="android:textColorSecondary">#fff</item>
+        <item name="android:actionMenuTextColor">#fff</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+    <style name="AlfredOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/windowBackgroundCoclor</item>
+    </style>
+
+
+
+</resources>
